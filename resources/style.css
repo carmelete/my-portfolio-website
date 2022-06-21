@@ -1,1 +1,27 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
 
+header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style-type: none;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
