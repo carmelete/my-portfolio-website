@@ -25,3 +25,28 @@ nav a {
     color: black;
     font-weight: bold;
 }
+
+#about-me  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.me {
+    width: 60%;
+    height: auto;
+}
+
+#about-me figure {
+    height: auto;
+    width: 40%;
+    margin-right: 0;
+}
+
+#about-me figure img {
+    width: 100%;
+}
+
+#about-me figure figcaption {
+    text-align: center;
+    font-size: 0.8rem;
+}
