@@ -61,3 +61,14 @@ nav a {
 .image {
     display: none;
 }
+
+.skill-logos {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logo {
+    width: 10%;
+}
+
+
