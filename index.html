@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My portfolio website</title>
     <link type="text/css" href="./resources/style.css" rel="stylesheet">
+    <script type="text/javascript" src="./main.js" defer></script>
 </head>
 <body>
     <header>
         <h1>Carmen Ortega Rico</h1>
         <nav>
             <li><a href="#about-me">About me</a></li>
-            <li><a href="#">Projects</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#">Skills</a></li>
             <li><a href="#">Contact</a></li>
     </header>
@@ -37,7 +38,17 @@
                 <figcaption>Esta soy yo a los pies de la Alhambra (<em>Granada</em>), mi ciudad natal.</figcaption>
             </figure>
         </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul>
+                <li id="project" onclick="getImage(projectOne, imageOne)"><p id="project1">My First Github Project</p></li>
+                <img id="image1" class="image" src="./resources/images/Captura de pantalla (17).png"/>
+                <li><p id="project2" onclick="getImage(projectTwo, imageTwo)">Responsive Club Website</p></li>
+                <img id="image2" class="image" src="./resources/images/Captura de pantalla (19).png"/>
+                <li><p id="project3" onclick="getImage(projectThree, imageThree)">Number Guesser JS</p></li>
+                <img id="image3" class="image" src="./resources/images/Captura de pantalla (18).png"/>
+            </ul>
+        </section>
     </main>
-
 </body>
 </html>
